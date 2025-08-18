@@ -38,7 +38,7 @@ export default function Hero() {
               textAlign: "center",
             }}
           >
-            It's Joy. It's Legacy
+            It&apos;s Joy. It&apos;s Legacy
           </span>
         </h1>
 
@@ -56,7 +56,7 @@ export default function Hero() {
           }}
         >
           Welcome to HerJoy Movement — a soulful wellness space for women who want to move, laugh, heal, and grow
-          unapologetically. Whether you're holding your breath, holding a baby, or just trying to hold it together...
+          unapologetically. Whether you&apos;re holding your breath, holding a baby, or just trying to hold it together...
           you belong here.
         </p>
 
