@@ -22,7 +22,7 @@ export default function AboutUs() {
               </p>
 
               <p>
-                We're a vibrant community of women moving our bodies, laughing with freedom, nourishing our insides, and
+                We&apos;re a vibrant community of women moving our bodies, laughing with freedom, nourishing our insides, and
                 showing up for ourselves in ways that feel soft, strong, and real.
               </p>
 
