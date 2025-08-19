@@ -3,6 +3,7 @@ import Hero from "@/components/hero"
 import Pillar from "@/components/pillar"
 import Programme from "@/components/programme"
 import Testimonials from "@/components/testimonials"
+import Founder from "@/components/founder"
 
 export default function HomePage() {
   return (
@@ -12,7 +13,7 @@ export default function HomePage() {
       <Pillar />
       <Programme />
       <Testimonials />
-      {/* Add other page sections here */}
+      <Founder />
     </main>
   )
 }
