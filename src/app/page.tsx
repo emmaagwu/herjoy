@@ -1,6 +1,7 @@
 import AboutUs from "@/components/about-us"
 import Hero from "@/components/hero"
 import Pillar from "@/components/pillar"
+import Programme from "@/components/programme"
 
 export default function HomePage() {
   return (
@@ -8,6 +9,7 @@ export default function HomePage() {
       <Hero />
       <AboutUs />
       <Pillar />
+      <Programme />
       {/* Add other page sections here */}
     </main>
   )
