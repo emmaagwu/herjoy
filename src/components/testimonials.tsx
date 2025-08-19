@@ -85,7 +85,7 @@ export default function Testimonials() {
         className="text-center max-w-2xl mx-auto mb-8 font-[Chopin] font-medium text-[20px] leading-[27px] tracking-[-0.04em]"
         style={{ color: "#3A470A" }}
       >
-        Every woman's journey is unique, and so is her healing. Hear how HerJoy has helped women rediscover their
+        Every woman&apos;s journey is unique, and so is her healing. Hear how HerJoy has helped women rediscover their
         strength, restore balance, and embrace their glow, one step, one sip, one breath at a time?
       </p>
 
@@ -116,7 +116,7 @@ export default function Testimonials() {
               className="mb-4 font-[Chopin] font-medium text-[20px] leading-[20px] tracking-[-0.04em]"
               style={{ color: "#3A4704" }}
             >
-              "{testimonial.quote}"
+              &apos;{testimonial.quote}&apos;
             </blockquote>
 
             {/* Author */}
