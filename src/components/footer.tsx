@@ -9,13 +9,13 @@ export default function Footer() {
           {/* Left side - Email and Location */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <Image src="/icons/mail.png" alt="Email" width={24} height={24} className="w-6 h-6" />
+              <Image src="/logos/mail.png" alt="Email" width={24} height={24} className="w-6 h-6" />
               <span className="font-[Chopin] font-semibold text-[24px] leading-[30px] tracking-[-0.04em]">
                 Connect@herjoymovement.com
               </span>
             </div>
             <div className="flex items-center gap-3">
-              <Image src="/icons/location.png" alt="Location" width={24} height={24} className="w-6 h-6" />
+              <Image src="/logos/location.png" alt="Location" width={24} height={24} className="w-6 h-6" />
               <span className="font-[Chopin] font-semibold text-[24px] leading-[30px] tracking-[-0.04em]">
                 377 Fosse Road North, Leicester, LE3 5RT, United Kingdom
               </span>
@@ -24,7 +24,7 @@ export default function Footer() {
 
           {/* Right side - Instagram */}
           <div className="flex items-center gap-3">
-            <Image src="/icons/instagram.png" alt="Instagram" width={24} height={24} className="w-6 h-6" />
+            <Image src="/logos/instagram.png" alt="Instagram" width={24} height={24} className="w-6 h-6" />
             <span className="font-[Chopin] font-semibold text-[24px] leading-[30px] tracking-[-0.04em]">
               Ifunanya Ruth...
             </span>
@@ -34,21 +34,21 @@ export default function Footer() {
         {/* Mobile Layout */}
         <div className="lg:hidden space-y-6 mb-8">
           <div className="flex items-center gap-3">
-            <Image src="/icons/instagram.png" alt="Instagram" width={24} height={24} className="w-6 h-6" />
+            <Image src="/logos/instagram.png" alt="Instagram" width={24} height={24} className="w-6 h-6" />
             <span className="font-[Chopin] font-semibold text-[24px] leading-[30px] tracking-[-0.04em]">
               Ifunanya Ruth...
             </span>
           </div>
 
           <div className="flex items-center gap-3">
-            <Image src="/icons/mail.png" alt="Email" width={24} height={24} className="w-6 h-6" />
+            <Image src="/logos/mail.png" alt="Email" width={24} height={24} className="w-6 h-6" />
             <span className="font-[Chopin] font-semibold text-[24px] leading-[30px] tracking-[-0.04em]">
               Connect@herjoymovement.com
             </span>
           </div>
 
           <div className="flex items-center gap-3">
-            <Image src="/icons/location.png" alt="Location" width={24} height={24} className="w-6 h-6" />
+            <Image src="/logos/location.png" alt="Location" width={24} height={24} className="w-6 h-6" />
             <span className="font-[Chopin] font-semibold text-[24px] leading-[30px] tracking-[-0.04em]">
               377 Fosse Road North, Leicester, LE3 5RT, United Kingdom
             </span>
