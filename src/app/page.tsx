@@ -4,6 +4,7 @@ import Pillar from "@/components/pillar"
 import Programme from "@/components/programme"
 import Testimonials from "@/components/testimonials"
 import Founder from "@/components/founder"
+import FAQ from "@/components/faq"
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <Programme />
       <Testimonials />
       <Founder />
+      <FAQ />
     </main>
   )
 }
