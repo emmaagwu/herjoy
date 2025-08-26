@@ -5,6 +5,7 @@ import Programme from "@/components/programme"
 import Testimonials from "@/components/testimonials"
 import Founder from "@/components/founder"
 import FAQ from "@/components/faq"
+import Footer from "@/components/footer"
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
       <Testimonials />
       <Founder />
       <FAQ />
+      <Footer />
     </main>
   )
 }
