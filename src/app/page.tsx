@@ -6,18 +6,22 @@ import Testimonials from "@/components/testimonials"
 import Founder from "@/components/founder"
 import FAQ from "@/components/faq"
 import Footer from "@/components/footer"
+import Product from "@/components/product"
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen pt-24" style={{ backgroundColor: "#F2F4DE" }}>
-      <Hero />
-      <AboutUs />
-      <Pillar />
-      <Programme />
-      <Testimonials />
-      <Founder />
-      <FAQ />
+    <div style={{ backgroundColor: "#F2F4DE" }}>
+      <main className="pt-24">
+        <Hero />
+        <AboutUs />
+        <Pillar />
+        <Programme />
+        <Product />
+        <Testimonials />
+        <Founder />
+        <FAQ />
+      </main>
       <Footer />
-    </main>
+    </div>
   )
 }
