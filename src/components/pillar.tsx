@@ -6,13 +6,13 @@ const pillars = [
   {
     id: 1,
     title: "Laughter",
-    subtitle: "Deep belly laughs and legacy joy",
+    subtitle: "Deep belly, no-apology joy",
     image: "/Herjoy_pillar1.png",
   },
   {
     id: 2,
     title: "Wellness",
-    subtitle: "Nourishing mind, body, and green flags",
+    subtitle: "From green juice to green flags",
     image: "/Herjoy_pillar2.png",
   },
   {
@@ -65,10 +65,10 @@ export default function Pillar() {
               <div className="hidden md:block relative rounded-3xl overflow-hidden aspect-[3/4] bg-white shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <Image src={pillar.image || "/placeholder.svg"} alt={pillar.title} fill className="object-cover" />
                 <div className="absolute bottom-0 left-0 right-0 bg-[#A7C047] p-6 rounded-b-3xl">
-                  <h3 className="font-[Chopin] font-semibold text-[24px] leading-[27px] tracking-[-0.04em] text-white mb-2">
+                  <h3 className="font-[Chopin] font-semibold text-[30px] leading-[27px] tracking-[-0.04em] text-white mb-2">
                     {pillar.title}
                   </h3>
-                  <p className="font-[Chopin] font-medium text-[14px] leading-[15px] tracking-[-0.04em] text-white">
+                  <p className="font-[Chopin] font-medium text-[17px] leading-[15px] tracking-[-0.04em] text-white">
                     {pillar.subtitle}
                   </p>
                 </div>
