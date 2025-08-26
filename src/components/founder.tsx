@@ -88,12 +88,12 @@ export default function Founder() {
                 <p className="font-[Chopin] font-medium text-[18px] leading-[22px] tracking-[-0.04em] text-[#3A4704]">
                   HerJoy Movement was born not from a perfect moment...<br></br>
                   But from grief. Deep. Raw. Sacred.<br></br>
-                  When we lost our precious daughter, my heart cracked open but somehow I didn&pos;t get lost in the darkness.<br></br>
+                  When we lost our precious daughter, my heart cracked open but somehow I didn&apos;t get lost in the darkness.<br></br>
                   Instead, I found a strange, holy peace. I cried every day. But I never lost me.
                 </p>
                 <p className="font-[Chopin] font-medium text-[18px] leading-[22px] tracking-[-0.04em] text-[#3A4704]">
-                  That season showed me that wellness isn&pos;t a trend, it&pos;s how we survive. It&pos;s how we remember our joy
-                  again. And that&pos;s why this movement exists.
+                  That season showed me that wellness isn&apos;t a trend, it&apos;s how we survive. It&apos;s how we remember our joy
+                  again. And that&apos;s why this movement exists.
                 </p>
 
                 <p className="font-[Chopin] font-medium text-[18px] leading-[22px] tracking-[-0.04em] text-[#3A4704]">
@@ -102,8 +102,8 @@ export default function Founder() {
                   For every sister seeking softness, sweat, laughter, and legacy.
                 </p>
                 <p className="font-[Chopin] font-medium text-[18px] leading-[22px] tracking-[-0.04em] text-[#3A4704]">
-                  HerJoy Movement is for you if you&pos;re ready to glow again.<br></br>
-                  Not because everything&pos;s perfect,<br></br>
+                  HerJoy Movement is for you if you&apos;re ready to glow again.<br></br>
+                  Not because everything&apos;s perfect,<br></br>
                   But because you choose to live.
                 </p>
               </div>
