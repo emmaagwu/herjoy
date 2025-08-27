@@ -170,7 +170,7 @@ export default function AboutUs() {
                 ? 'opacity-100 translate-x-0 scale-100'
                 : 'opacity-0 translate-x-12 scale-95'
             } hover:scale-105 hover:shadow-2xl hover:shadow-black/20`}
-            style={{ borderRadius: "50px" }}
+            style={{ borderRadius: "80px" }}
           >
             <img
               src="/Herjoy_about.png"
