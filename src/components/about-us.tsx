@@ -89,7 +89,7 @@ export default function AboutUs() {
 
   return (
     <div id="about" ref={sectionRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-16">
-      <div className="relative flex flex-col lg:flex-row gap-8 lg:gap-12 lg:items-end lg:min-h-[691px]">
+      <div className="relative flex flex-col lg:flex-row gap-8 lg:gap-8 lg:items-end lg:min-h-[691px]">
         {/* Text Block */}
         <div className="w-full lg:flex-1">
           <div
