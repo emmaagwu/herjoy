@@ -129,8 +129,8 @@ export default function AboutUs() {
                   ? 'opacity-100 translate-y-0'
                   : 'opacity-0 translate-y-8'
               } hover:scale-102`}>
-                Created by Ifunanya Joel-Beson, aka Queenofthemic, HerJoy was born from a deep, personal place to make
-                wellness joyful, DNA embedded, and legacy-driven.
+                Created by Ifunanya Joel-Ekeson, aka Queenofthemic, HerJoy was born from a deep, personal desire to make
+                wellness joyful, embodied, and legacy-driven.
               </p>
 
               <p className={`transition-all duration-800 ease-out delay-900 ${
