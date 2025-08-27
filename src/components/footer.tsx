@@ -18,7 +18,7 @@ export default function Footer() {
                 />
                 <a
                   href="mailto:Connect@herjoymovement.com"
-                  className="font-[Chopin] font-semibold text-[14px] lg:text-[24px] leading-[30px] tracking-[-0.04em] hover:underline"
+                  className="font-[Chopin] font-semibold text-[16px] lg:text-[24px] leading-[30px] tracking-[-0.04em] hover:underline"
                 >
                   Connect@herjoymovement.com
                 </a>
@@ -66,7 +66,7 @@ export default function Footer() {
               height={24}
               className="w-6 h-6"
             />
-            <span className="font-[Chopin] font-semibold text-[14px] lg:text-[24px] leading-[30px] tracking-[-0.04em]">
+            <span className="font-[Chopin] font-semibold text-[16px] lg:text-[24px] leading-[30px] tracking-[-0.04em]">
               Ifunanya Ruth...
             </span>
           </a>
@@ -81,7 +81,7 @@ export default function Footer() {
             />
             <a
               href="mailto:Connect@herjoymovement.com"
-              className="font-[Chopin] font-semibold text-[14px] lg:text-[24px] leading-[30px] tracking-[-0.04em] hover:underline"
+              className="font-[Chopin] font-semibold text-[16px] lg:text-[24px] leading-[30px] tracking-[-0.04em] hover:underline"
             >
               Connect@herjoymovement.com
             </a>
@@ -89,7 +89,7 @@ export default function Footer() {
 
           <div className="flex items-center gap-3">
             <Image src="/logos/location.png" alt="Location" width={24} height={24} className="w-6 h-6" />
-            <span className="font-[Chopin] font-semibold text-[14px] lg:text-[24px] leading-[30px] tracking-[-0.04em]">
+            <span className="font-[Chopin] font-semibold text-[16px] lg:text-[24px] leading-[30px] tracking-[-0.04em]">
               377 Fosse Road North, Leicester, LE3 5RT, United Kingdom
             </span>
           </div>
@@ -97,7 +97,7 @@ export default function Footer() {
 
         {/* Copyright - Same for both layouts */}
         <div className="text-left">
-          <span className="font-[Chopin] font-semibold text-[14px] lg:text-[24px] leading-[30px] tracking-[-0.04em] lg:text-left">
+          <span className="font-[Chopin] font-semibold text-[16px] lg:text-[24px] leading-[30px] tracking-[-0.04em] lg:text-left">
             <span className="inline">©</span>HerJoyMovement2025
           </span>
         </div>
