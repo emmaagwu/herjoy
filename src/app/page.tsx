@@ -11,7 +11,7 @@ import Product from "@/components/product"
 export default function HomePage() {
   return (
     <div style={{ backgroundColor: "#F2F4DE" }}>
-      <main className="pt-24">
+      <main className="pt-24 space-y-24 lg:space-y-40">
         <Hero />
         <AboutUs />
         <Pillar />

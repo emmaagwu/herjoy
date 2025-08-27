@@ -9,10 +9,19 @@ export default function Footer() {
           {/* Left side - Email and Location */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <Image src="/logos/mail.png" alt="Email" width={24} height={24} className="w-6 h-6" />
-              <span className="font-[Chopin] font-semibold text-[24px] leading-[30px] tracking-[-0.04em]">
-                Connect@herjoymovement.com
-              </span>
+                <Image
+                  src="/logos/mail.png"
+                  alt="Email"
+                  width={24}
+                  height={24}
+                  className="w-6 h-6"
+                />
+                <a
+                  href="mailto:Connect@herjoymovement.com"
+                  className="font-[Chopin] font-semibold text-[16px] lg:text-[24px] leading-[30px] tracking-[-0.04em] hover:underline"
+                >
+                  Connect@herjoymovement.com
+                </a>
             </div>
             <div className="flex items-center gap-3">
               <Image src="/logos/location.png" alt="Location" width={24} height={24} className="w-6 h-6" />
@@ -23,33 +32,64 @@ export default function Footer() {
           </div>
 
           {/* Right side - Instagram */}
-          <div className="flex items-center gap-3">
-            <Image src="/logos/instagram.png" alt="Instagram" width={24} height={24} className="w-6 h-6" />
+          <a
+            href="https://www.instagram.com/queeniofthemic?igsh=MWdlNWNseW9zc2ozbw%3D%3D&utm_source=qr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 hover:opacity-80 transition-opacity"
+          >
+            <Image
+              src="/logos/instagram.png"
+              alt="Instagram"
+              width={24}
+              height={24}
+              className="w-6 h-6"
+            />
             <span className="font-[Chopin] font-semibold text-[24px] leading-[30px] tracking-[-0.04em]">
               Ifunanya Ruth...
             </span>
-          </div>
+          </a>
         </div>
 
         {/* Mobile Layout */}
         <div className="lg:hidden space-y-6 mb-8">
-          <div className="flex items-center gap-3">
-            <Image src="/logos/instagram.png" alt="Instagram" width={24} height={24} className="w-6 h-6" />
-            <span className="font-[Chopin] font-semibold text-[24px] leading-[30px] tracking-[-0.04em]">
+          <a
+            href="https://www.instagram.com/queeniofthemic?igsh=MWdlNWNseW9zc2ozbw%3D%3D&utm_source=qr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 hover:opacity-80 transition-opacity"
+          >
+            <Image
+              src="/logos/instagram.png"
+              alt="Instagram"
+              width={24}
+              height={24}
+              className="w-6 h-6"
+            />
+            <span className="font-[Chopin] font-semibold text-[16px] lg:text-[24px] leading-[30px] tracking-[-0.04em]">
               Ifunanya Ruth...
             </span>
-          </div>
+          </a>
 
           <div className="flex items-center gap-3">
-            <Image src="/logos/mail.png" alt="Email" width={24} height={24} className="w-6 h-6" />
-            <span className="font-[Chopin] font-semibold text-[24px] leading-[30px] tracking-[-0.04em]">
+            <Image
+              src="/logos/mail.png"
+              alt="Email"
+              width={24}
+              height={24}
+              className="w-6 h-6"
+            />
+            <a
+              href="mailto:Connect@herjoymovement.com"
+              className="font-[Chopin] font-semibold text-[16px] lg:text-[24px] leading-[30px] tracking-[-0.04em] hover:underline"
+            >
               Connect@herjoymovement.com
-            </span>
+            </a>
           </div>
 
           <div className="flex items-center gap-3">
             <Image src="/logos/location.png" alt="Location" width={24} height={24} className="w-6 h-6" />
-            <span className="font-[Chopin] font-semibold text-[24px] leading-[30px] tracking-[-0.04em]">
+            <span className="font-[Chopin] font-semibold text-[16px] lg:text-[24px] leading-[30px] tracking-[-0.04em]">
               377 Fosse Road North, Leicester, LE3 5RT, United Kingdom
             </span>
           </div>
@@ -57,8 +97,8 @@ export default function Footer() {
 
         {/* Copyright - Same for both layouts */}
         <div className="text-left">
-          <span className="font-[Chopin] font-semibold text-[24px] leading-[30px] tracking-[-0.04em] lg:text-left">
-            <span className="hidden lg:inline">©</span>HerJoyMovement2025
+          <span className="font-[Chopin] font-semibold text-[16px] lg:text-[24px] leading-[30px] tracking-[-0.04em] lg:text-left">
+            <span className="inline">©</span>HerJoyMovement2025
           </span>
         </div>
       </div>

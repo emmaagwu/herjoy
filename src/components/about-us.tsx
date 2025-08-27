@@ -89,9 +89,9 @@ export default function AboutUs() {
 
   return (
     <div id="about" ref={sectionRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-16">
-      <div className="relative flex flex-col lg:flex-row gap-8 lg:gap-8 lg:items-end lg:min-h-[691px]">
+      <div className="relative flex flex-col lg:flex-row gap-8 lg:gap-8 lg:items-end lg:justify-center lg:min-h-[691px] ">
         {/* Text Block */}
-        <div className="w-full lg:flex-1">
+        {/* <div className="w-full lg:flex-1 border-2 border-red-500"> */}
           <div
             className={`lg:w-[619px] lg:h-[691px] p-8 lg:p-16 lg:py-24 transition-all duration-1000 ease-out transform-gpu hover:scale-[1.02] hover:shadow-2xl hover:shadow-[#A7C047]/20 ${
               isVisible
@@ -160,7 +160,7 @@ export default function AboutUs() {
               isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-0'
             } animate-pulse`} style={{ animationDelay: '2.5s' }} />
           </div>
-        </div>
+        {/* </div> */}
 
         {/* Image Block */}
         <div className="w-full lg:w-auto lg:flex-shrink-0">
