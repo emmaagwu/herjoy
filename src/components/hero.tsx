@@ -1,60 +1,3 @@
-// export default function Hero() {
-//   return (
-//     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-16">
-//       <div className="text-center">
-//         {/* Main heading */}
-//         <h1 className="mb-6 lg:mb-8 inline-block max-w-full">
-//           <span
-//             className="block text-black font-[Chopin] font-semibold text-[34.76px] leading-[34.76px] tracking-[-0.04em] text-center lg:text-[60px] lg:leading-[60px]"
-//           >
-//             Wellness is{" "}
-//             <span
-//               className="font-[Chopin] font-extrabold italic text-[34.76px] leading-[34.76px] tracking-[-0.04em] lg:text-[60px] lg:leading-[60px] text-center text-[#A7C047]"
-//             >
-//               Power.
-//             </span>
-//           </span>
-//           <span
-//             className="block text-black mt-2 font-[Chopin] font-semibold text-[34.76px] leading-[34.76px] tracking-[-0.04em] text-center lg:text-[60px] lg:leading-[60px]"
-//           >
-//             It&apos;s Joy. It&apos;s Legacy
-//           </span>
-//         </h1>
-
-//         {/* Subtitle */}
-//         <p
-//           className="mb-8 lg:mb-12 inline-block font-[Chopin] font-medium text-[12px] leading-[14px] lg:text-[16px] lg:leading-[20px] tracking-[-0.04em] text-center text-[#3A470A] max-w-full lg:max-w-xl"
-//         >
-//           Welcome to HerJoy Movement — a soulful wellness space for women who want to move, laugh, heal, and grow
-//           unapologetically. Whether you&apos;re holding your breath, holding a baby, or just trying to hold it together...
-//           you belong here.
-//         </p>
-
-//         {/* CTA Button */}
-//         <a
-//           href="https://bit.ly/HerJoyMovement"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//           className="inline-block mb-12 lg:mb-16 px-8 py-3 rounded-full text-white font-medium hover:opacity-90 transition-opacity bg-[#A7C047]"
-//         >
-//           Join the movement for free
-//         </a>
-
-//         {/* Hero Image Container */}
-//         <div className="relative max-w-4xl mx-auto">
-//           <div className="relative rounded-3xl overflow-hidden shadow-2xl">
-//             <img
-//               src="/Herjoy_hero.png"
-//               alt="Three women in black workout attire smiling together"
-//               className="w-full h-auto max-w-[900px] aspect-[900/542]"
-//             />
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   )
-// }
-
 "use client"
 
 
@@ -80,37 +23,36 @@ export default function Hero() {
         <div className="mb-6 lg:mb-8">
           <h1 className="mb-4 lg:mb-6">
             <span
-              className={`block text-black font-[Chopin] font-semibold text-[34.76px] leading-[34.76px] tracking-[-0.04em] text-center lg:text-[60px] lg:leading-[60px] transition-all duration-1000 ease-out ${
+              className={`block text-black font-[Chopin] font-bold text-[34.76px] leading-[34.76px] tracking-[-0.04em] text-center lg:text-[60px] lg:leading-[60px] transition-all duration-1000 ease-out ${
                 isLoaded
                   ? 'opacity-100 translate-y-0'
                   : 'opacity-0 translate-y-8'
               }`}
             >
-              Wellness is{" "}
-              <span
-                className={`font-[Chopin] font-extrabold italic text-[34.76px] leading-[34.76px] tracking-[-0.04em] lg:text-[60px] lg:leading-[60px] text-center text-[#A7C047] transition-all duration-1200 ease-out delay-300 inline-block ${
-                  isLoaded
-                    ? 'opacity-100 translate-y-0 scale-100'
-                    : 'opacity-0 translate-y-8 scale-95'
-                } hover:scale-110 hover:text-[#8FA038]`}
-              >
-                Power.
-              </span>
+              We move. We heal. <span className='hidden md:inline-block' >We</span>
             </span>
             <span
-              className={`block text-black mt-2 font-[Chopin] font-semibold text-[34.76px] leading-[34.76px] tracking-[-0.04em] text-center lg:text-[60px] lg:leading-[60px] transition-all duration-1000 ease-out delay-200 ${
+              className={`block text-black mt-2 font-[Chopin] font-bold text-[34.76px] leading-[34.76px] tracking-[-0.04em] text-center lg:text-[60px] lg:leading-[60px] transition-all duration-1000 ease-out delay-200 ${
                 isLoaded
                   ? 'opacity-100 translate-y-0'
                   : 'opacity-0 translate-y-8'
               }`}
             >
-              It&apos;s Joy. It&apos;s Legacy
+              <span className='md:hidden' >We{' '}</span>
+              laugh. We live{" "}
+              <span className='text-[#A7C047] hidden md:inline-block'>
+                again
+              </span>
+              <span className='text-[#A7C047] md:hidden'>
+                 <br/>
+                again
+              </span>
             </span>
           </h1>
 
           {/* Subtitle - reduced width on large screens */}
           <p
-            className={`font-[Chopin] font-medium text-[12px] leading-[14px] lg:text-[16px] lg:leading-[20px] tracking-[-0.04em] text-center text-[#3A470A] max-w-full lg:max-w-lg mx-auto transition-all duration-1000 ease-out delay-500 ${
+            className={`font-[Chopin] font-medium text-[12px] leading-[14px] lg:text-[16px] lg:leading-[20px] tracking-[-0.04em] text-center text-[#3A470A] max-w-full px-10 lg:max-w-lg mx-auto transition-all duration-1000 ease-out delay-500 ${
               isLoaded
                 ? 'opacity-100 translate-y-0'
                 : 'opacity-0 translate-y-8'
@@ -142,7 +84,7 @@ export default function Hero() {
           }}
         >
           <span className="relative z-10">
-            Join the movement for free
+            Join the circle for free
           </span>
           <div
             className={`absolute inset-0 bg-gradient-to-r from-[#A7C047] to-[#8FA038] rounded-full transition-opacity duration-300 ${

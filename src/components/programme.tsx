@@ -164,7 +164,7 @@ export default function Programme() {
               : "opacity-0 translate-y-8 scale-95"
           } hover:scale-105`}
         >
-          Programmes
+          HerJoy Rituals
         </h2>
 
         {/* Animated curved line - moved closer to title */}
@@ -201,11 +201,11 @@ export default function Programme() {
               ? "opacity-100 translate-y-0"
               : "opacity-0 translate-y-8"
           }`}>
-            <h3 className="font-[Chopin] font-semibold text-[36px] leading-[36px] tracking-[-0.04em] text-black hover:scale-105 transition-transform duration-300">
-              Sweat With Me Saturdays
+            <h3 className="font-[Chopin] font-semibold text-[36px] leading-[36px] tracking-[-0.04em] text-[#3A470A] hover:scale-105 transition-transform duration-300">
+              Sweat With Me
             </h3>
-            <p className="font-[Chopin] font-normal italic text-[36px] leading-[36px] tracking-[-0.04em] text-black hover:text-[#A7C047] transition-colors duration-300">
-              (August Edition)
+            <p className="font-[Chopin] font-normal italic text-[36px] leading-[36px] tracking-[-0.04em] text-[#3A470A] hover:text-[#A7C047] transition-colors duration-300">
+              Every Saturday, 7-8am (local time)
             </p>
           </div>
 
@@ -215,8 +215,7 @@ export default function Programme() {
               ? "opacity-100 translate-y-0"
               : "opacity-0 translate-y-8"
           } hover:text-[#2A350A] hover:scale-105`}>
-            Join our FREE Saturday joy-workouts in Leicester all through August! Come move your body, vibe with other
-            women, and enjoy a post-workout cup of green glow. Expect joy, sweat, and dance breaks!
+            Every Saturday, women across the world rise together. Some run, some jog, some dance - but all move with intention. This is not exercise. This is ritual. A global rythm of sweat, joy, and sisterhood.
           </p>
 
           {/* CTA Button */}
