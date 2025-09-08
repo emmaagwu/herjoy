@@ -58,9 +58,7 @@ export default function Hero() {
                 : 'opacity-0 translate-y-8'
             }`}
           >
-            Welcome to HerJoy Movement — a soulful wellness space for women who want to move, laugh, heal, and grow
-            unapologetically. Whether you&apos;re holding your breath, holding a baby, or just trying to hold it together...
-            you belong here.
+            HerJoy Movement is where women across the world return to their bodies and their joy. From Leicester to Lagos, from Dubai to Toronto — one rhythm, one sisterhood, one rising.
           </p>
         </div>
 
