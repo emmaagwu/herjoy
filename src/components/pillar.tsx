@@ -130,7 +130,7 @@ export default function Pillar() {
                 <img
                   src={pillar.image || "/placeholder.svg"}
                   alt={pillar.title}
-                  className="w-full h-full object-contain transition-transform duration-700 ease-out group-hover:scale-110"
+                  className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-[#A7C047] p-6 rounded-b-3xl transition-all duration-500 ease-out group-hover:bg-[#8FA038]">
                   <h3 className="font-[Chopin] font-semibold text-[30px] leading-[30px] tracking-[-0.04em] text-white mb-2 transition-transform duration-300 group-hover:scale-105">
