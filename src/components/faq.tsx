@@ -270,9 +270,9 @@ export default function FAQ() {
                 href="https://bit.ly/HerJoyMovement"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-[#A7C047] text-white font-[Chopin] font-medium text-[16px] px-8 py-3 rounded-full transition-all duration-300 ease-out hover:bg-[#8FA038] hover:scale-105 hover:shadow-lg hover:shadow-[#A7C047]/30 active:scale-95 transform-gpu relative overflow-hidden group"
+                className="inline-block bg-[#A7C047] text-white font-[Chopin] font-semibold text-[16px] md:text-[20px] px-8 py-3 rounded-full transition-all duration-300 ease-out hover:bg-[#8FA038] hover:scale-105 hover:shadow-lg hover:shadow-[#A7C047]/30 active:scale-95 transform-gpu relative overflow-hidden group"
               >
-                <span className="relative z-10">Join the movement for free</span>
+                <span className="relative z-10">Join the circle for free</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-[#A7C047] to-[#8FA038] rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </a>
             </div>

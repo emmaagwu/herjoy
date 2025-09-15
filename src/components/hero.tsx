@@ -23,20 +23,18 @@ export default function Hero() {
         <div className="mb-6 lg:mb-8">
           <h1 className="mb-4 lg:mb-6">
             <span
-              className={`block text-black font-[Chopin] font-bold text-[34.76px] leading-[34.76px] tracking-[-0.04em] text-center lg:text-[60px] lg:leading-[60px] transition-all duration-1000 ease-out ${
-                isLoaded
-                  ? 'opacity-100 translate-y-0'
-                  : 'opacity-0 translate-y-8'
-              }`}
+              className={`block text-black font-[Chopin] font-bold text-[34.76px] leading-[34.76px] tracking-[-0.04em] text-center lg:text-[60px] lg:leading-[60px] transition-all duration-1000 ease-out ${isLoaded
+                ? 'opacity-100 translate-y-0'
+                : 'opacity-0 translate-y-8'
+                }`}
             >
               We move. We heal. <span className='hidden md:inline-block' >We</span>
             </span>
             <span
-              className={`block text-black mt-2 font-[Chopin] font-bold text-[34.76px] leading-[34.76px] tracking-[-0.04em] text-center lg:text-[60px] lg:leading-[60px] transition-all duration-1000 ease-out delay-200 ${
-                isLoaded
-                  ? 'opacity-100 translate-y-0'
-                  : 'opacity-0 translate-y-8'
-              }`}
+              className={`block text-black mt-2 font-[Chopin] font-bold text-[34.76px] leading-[34.76px] tracking-[-0.04em] text-center lg:text-[60px] lg:leading-[60px] transition-all duration-1000 ease-out delay-200 ${isLoaded
+                ? 'opacity-100 translate-y-0'
+                : 'opacity-0 translate-y-8'
+                }`}
             >
               <span className='md:hidden' >We{' '}</span>
               laugh. We live{" "}
@@ -44,7 +42,7 @@ export default function Hero() {
                 again
               </span>
               <span className='text-[#A7C047] md:hidden'>
-                 <br/>
+                <br />
                 again
               </span>
             </span>
@@ -52,11 +50,10 @@ export default function Hero() {
 
           {/* Subtitle - reduced width on large screens */}
           <p
-            className={`font-[Chopin] font-medium text-[12px] leading-[14px] lg:text-[16px] lg:leading-[20px] tracking-[-0.04em] text-center text-[#3A470A] max-w-full px-10 lg:max-w-lg mx-auto transition-all duration-1000 ease-out delay-500 ${
-              isLoaded
-                ? 'opacity-100 translate-y-0'
-                : 'opacity-0 translate-y-8'
-            }`}
+            className={`font-[Chopin] font-medium text-[12px] leading-[14px] lg:text-[16px] lg:leading-[20px] tracking-[-0.04em] text-center text-[#3A470A] max-w-full px-10 lg:max-w-lg mx-auto transition-all duration-1000 ease-out delay-500 ${isLoaded
+              ? 'opacity-100 translate-y-0'
+              : 'opacity-0 translate-y-8'
+              }`}
           >
             HerJoy Movement is where women across the world return to their bodies and their joy. From Leicester to Lagos, from Dubai to Toronto — one rhythm, one sisterhood, one rising.
           </p>
@@ -69,11 +66,10 @@ export default function Hero() {
           rel="noopener noreferrer"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
-          className={`inline-block mb-12 lg:mb-16 px-8 py-3 rounded-full text-white font-medium transition-all duration-500 ease-out bg-[#A7C047] ${
-            isLoaded
-              ? 'opacity-100 translate-y-0 scale-100'
-              : 'opacity-0 translate-y-8 scale-95'
-          } hover:scale-105 hover:bg-[#8FA038] hover:shadow-lg hover:shadow-[#A7C047]/30 active:scale-95 transform-gpu`}
+          className={`inline-block mb-12 lg:mb-16 px-8 py-3 rounded-full text-white font-medium transition-all duration-500 ease-out bg-[#A7C047] ${isLoaded
+            ? 'opacity-100 translate-y-0 scale-100'
+            : 'opacity-0 translate-y-8 scale-95'
+            } hover:scale-105 hover:bg-[#8FA038] hover:shadow-lg hover:shadow-[#A7C047]/30 active:scale-95 transform-gpu`}
           style={{
             transitionDelay: isLoaded ? '700ms' : '0ms',
             boxShadow: isHovered
@@ -85,18 +81,16 @@ export default function Hero() {
             Join the circle for free
           </span>
           <div
-            className={`absolute inset-0 bg-gradient-to-r from-[#A7C047] to-[#8FA038] rounded-full transition-opacity duration-300 ${
-              isHovered ? 'opacity-100' : 'opacity-0'
-            }`}
+            className={`absolute inset-0 bg-gradient-to-r from-[#A7C047] to-[#8FA038] rounded-full transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'
+              }`}
           />
         </a>
 
         {/* Hero Image Container */}
-        <div className={`relative max-w-4xl mx-auto transition-all duration-1200 ease-out delay-900 ${
-          isLoaded
-            ? 'opacity-100 translate-y-0 scale-100'
-            : 'opacity-0 translate-y-12 scale-95'
-        }`}>
+        <div className={`relative max-w-4xl mx-auto transition-all duration-1200 ease-out delay-900 ${isLoaded
+          ? 'opacity-100 translate-y-0 scale-100'
+          : 'opacity-0 translate-y-12 scale-95'
+          }`}>
           <div className="relative rounded-3xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-500 ease-out group">
             <img
               src="/Herjoy_hero.png"
@@ -114,12 +108,10 @@ export default function Hero() {
 
         {/* Background decorative elements */}
         <div className="fixed inset-0 pointer-events-none overflow-hidden -z-10">
-          <div className={`absolute top-20 left-10 w-32 h-32 bg-[#A7C047] rounded-full opacity-5 transition-all duration-2000 ${
-            isLoaded ? 'translate-x-0 translate-y-0' : '-translate-x-20 -translate-y-10'
-          }`} style={{ filter: 'blur(40px)' }} />
-          <div className={`absolute bottom-20 right-10 w-48 h-48 bg-[#A7C047] rounded-full opacity-3 transition-all duration-2000 delay-500 ${
-            isLoaded ? 'translate-x-0 translate-y-0' : 'translate-x-20 translate-y-10'
-          }`} style={{ filter: 'blur(60px)' }} />
+          <div className={`absolute top-20 left-10 w-32 h-32 bg-[#A7C047] rounded-full opacity-5 transition-all duration-2000 ${isLoaded ? 'translate-x-0 translate-y-0' : '-translate-x-20 -translate-y-10'
+            }`} style={{ filter: 'blur(40px)' }} />
+          <div className={`absolute bottom-20 right-10 w-48 h-48 bg-[#A7C047] rounded-full opacity-3 transition-all duration-2000 delay-500 ${isLoaded ? 'translate-x-0 translate-y-0' : 'translate-x-20 translate-y-10'
+            }`} style={{ filter: 'blur(60px)' }} />
         </div>
       </div>
     </div>
