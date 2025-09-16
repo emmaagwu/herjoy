@@ -58,8 +58,8 @@ export default function Testimonials() {
     },
     {
       image: "/Herjoy_Testimony3.png",
-      quote: "I came for the workout, I stayed for the laughter, the healing, and the juice!",
-      author: "First-time participant",
+      quote: "For the past 4 years since my CS, I have always had painful abdominal cramps weeks before and during my cycle, so bad that I was placed on painkillers. But since I joined HerJoyMovement and stayed consistent with my joyful daily steps, last period came with ZERO pain and no painkillers needed",
+      author: "Aify",
     },
   ];
 
@@ -163,7 +163,7 @@ export default function Testimonials() {
 
             {/* Quote */}
             <blockquote
-              className="mb-4 font-[Chopin] font-medium text-[20px] leading-[20px] tracking-[-0.04em] transition-all duration-300 group-hover:text-[#2A350A] group-hover:scale-105"
+              className="mb-4 font-[Chopin] font-medium text-[16px] leading-[20px] tracking-[-0.04em] transition-all duration-300 group-hover:text-[#2A350A] group-hover:scale-105"
               style={{ color: "#3A4704" }}
             >
               &quot;{testimonial.quote}&quot;
