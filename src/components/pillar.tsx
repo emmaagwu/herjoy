@@ -14,7 +14,7 @@ const pillars = [
   {
     id: 2,
     title: "Wellness",
-    subtitle: "From green juice to green flags",
+    subtitle: "Enjoy a balanced state of body, mind, and spirit with calmness",
     image: "/Herjoy_pillar2.png",
   },
   {
