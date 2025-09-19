@@ -64,7 +64,7 @@ export default function AboutUs() {
                   ? 'opacity-100 translate-y-0'
                   : 'opacity-0 translate-y-8'
               } hover:scale-102`}>
-                HerJoy is not just a community, it is a homecoming.
+                HerJoy circle is not just a community, it is a homecoming.
               </p>
 
               <p className={`transition-all duration-800 ease-out delay-700 ${
