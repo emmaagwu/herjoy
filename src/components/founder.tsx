@@ -120,8 +120,8 @@ export default function Founder() {
             }`}>
               <div className="space-y-3">
                 <p className="font-[Chopin] font-medium text-[18px] leading-[22px] tracking-[-0.04em] text-[#3A4704] hover:text-[#2A350A] transition-colors duration-300">
-                  HerJoy was birthed from sacred ache.<br></br>
-                  At 36 weeks, I was told the words no mother should hear: &apos;We can’t find a heartbeat.&apos; My daughter slipped quietly from life to eternity. My womb was full yet empty.<br></br>
+                  HerJoy Movement was birthed from sacred ache.<br></br>
+                  At 36 weeks pregnant, I was told the words no mother should hear: &apos;We can’t find a heartbeat.&apos; My daughter slipped quietly from life to eternity. My womb was full yet empty.<br></br>
                 </p>
                 <p className="font-[Chopin] font-medium text-[18px] leading-[22px] tracking-[-0.04em] text-[#3A4704] hover:text-[#2A350A] transition-colors duration-300">
                 Through tears, I found a whisper: Joy is not gone. It is buried. Unearth it.
