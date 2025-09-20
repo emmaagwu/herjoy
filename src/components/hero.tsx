@@ -21,14 +21,16 @@ export default function Hero() {
       <div className="text-center">
         {/* Main heading */}
         <div className="mb-6 lg:mb-8">
-          <h1 className="mb-4 lg:mb-6">
+          <h1 className="mb-4 lg:mb-6"
+            aria-label="We move. We heal. We laugh. We live again."
+          >
             <span
               className={`block text-black font-[Chopin] font-bold text-[34.76px] leading-[34.76px] tracking-[-0.04em] text-center lg:text-[60px] lg:leading-[60px] transition-all duration-1000 ease-out ${isLoaded
                 ? 'opacity-100 translate-y-0'
                 : 'opacity-0 translate-y-8'
                 }`}
             >
-              We move. We heal. <span className='hidden md:inline-block' >We</span>
+              We move. We heal. <span aria-hidden="true" className='hidden md:inline-block' >We</span>
             </span>
             <span
               className={`block text-black mt-2 font-[Chopin] font-bold text-[34.76px] leading-[34.76px] tracking-[-0.04em] text-center lg:text-[60px] lg:leading-[60px] transition-all duration-1000 ease-out delay-200 ${isLoaded
@@ -36,12 +38,12 @@ export default function Hero() {
                 : 'opacity-0 translate-y-8'
                 }`}
             >
-              <span className='md:hidden' >We{' '}</span>
+              <span aria-hidden="true" className='md:hidden' >We{' '}</span>
               laugh. We live{" "}
               <span className='text-[#A7C047] hidden md:inline-block'>
                 again
               </span>
-              <span className='text-[#A7C047] md:hidden'>
+              <span aria-hidden="true" className='text-[#A7C047] md:hidden'>
                 <br />
                 again
               </span>
